@@ -5,12 +5,12 @@
 .dark *:after,
 .dark *:before {
   --color-white: #{$color-white};
-  --color-primary: #{$color-blue};
-  --color-secondary: #{$color-orange};
+  --color-primary: #{$color-dark-primary};
+  --color-secondary: #{$color-dark-secondary};
   --color-prism-background: #{$color-dark-paper};
   --color-typographic-base-font: #{$color-white};
-  --color-typographic-link-p-font: #{$color-blue};
-  --color-typographic-link-s-font: #{$color-orange};
+  --color-typographic-link-p-font: #{$color-dark-primary};
+  --color-typographic-link-s-font: #{$color-dark-secondary};
   --color-page-border: #{$color-dark-cloud};
   --color-page-background: #{$color-dark};
   --color-sidebar-border: #{$color-dark-cloud};

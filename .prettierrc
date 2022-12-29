@@ -1,4 +1,12 @@
 {
   "arrowParens": "always",
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "overrides": [
+    {   
+      "files": "*.scss",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
 }

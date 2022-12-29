@@ -9,11 +9,13 @@ export default {
     url: config.url,
     menu: config.menu,
     title: config.title,
+    image: config.image,
     author: config.author,
     subtitle: config.subtitle,
     copyright: config.copyright,
     postsLimit: config.postsLimit,
     disqusShortname: config.disqusShortname,
+    farcasterUrl: config.farcasterUrl,
   },
   plugins: [
     {
@@ -79,7 +81,6 @@ export default {
                       frontmatter {
                         date
                         title
-                        slug
                         description
                       }
                     }

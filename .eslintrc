@@ -43,6 +43,7 @@
     "sort-keys": ["off"],
     "camelcase": ["off"],
     "arrow-body-style": ["error", "as-needed"],
+    // "no-console": ["warn"],
     "comma-dangle": ["error", "always-multiline"],
     "sort-imports": ["off"],
     "no-restricted-globals": ["off"],

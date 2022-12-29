@@ -32,7 +32,7 @@
   }
 
   .subtitle {
-    color: $color-gray;
+    color: var(--color-gray);
     @include line-height(1);
     @include margin-bottom(1);
   }
@@ -42,5 +42,27 @@
     display: flex;
     justify-content: space-between;
     @include margin(0.5, 0, 0.5, 0);
+  }
+  
+  .pronunciation {
+    margin: 0;
+    font-size: $typographic-base-font-size * 0.75;
+    font-weight: 300;
+    @include line-height(1);
+    color: var(--color-primary);
+  }
+
+  .workingLabel {
+    font-size: $typographic-base-font-size * 0.75;
+    @include line-height(1);
+    color: var(--color-primary);
+  }
+
+  .workingLink {
+    color: var(--color-secondary);
+    font-weight: 700;
+    &:hover {
+      color: var(--color-primary);
+    }
   }
 }

@@ -6,5 +6,6 @@
 !*.tsx
 !*.yml
 !*.js
+!*.scss
 /coverage/
 /public/

@@ -8,12 +8,16 @@ const useSiteMetadata = () => {
           author {
             bio
             name
+            pronunciation
+            workingOn {
+              link
+              place
+              position
+            }
             photo
             contacts {
               rss
-              line
               email
-              weibo
               gitlab
               medium
               github
@@ -26,7 +30,9 @@ const useSiteMetadata = () => {
               instagram
               soundcloud
               mastodon
-              bluesky
+              showtime
+              lenster
+              farcaster
             }
           }
           menu {
@@ -38,7 +44,17 @@ const useSiteMetadata = () => {
           subtitle
           copyright
           disqusShortname
+          farcasterUrl
         }
+        menu {
+          path
+          label
+        }
+        url
+        title
+        subtitle
+        copyright
+        disqusShortname
       }
     }
   `);

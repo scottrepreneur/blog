@@ -65,7 +65,6 @@ export const query = graphql`
             category
             title
             date
-            slug
           }
         }
       }

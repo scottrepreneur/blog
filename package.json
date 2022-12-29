@@ -3,17 +3,13 @@
   "version": "1.6.200",
   "description": "A constantly evolving and thoughtful architecture for creating static blogs with Gatsby",
   "keywords": [
-    "gatsby",
-    "graphql",
-    "react",
     "blog"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen.git"
+    "url": "https://github.com/scottrepreneur/meta.git"
   },
-  "license": "MIT",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "author": "Scott Herren <scottrepreneur@ethmail.cc>",
   "scripts": {
     "build": "npm run clean && gatsby build",
     "clean": "rimraf .cache public",
@@ -21,22 +17,15 @@
     "format:scss": "stylelint \"src/**/*.scss\" --fix",
     "format:ts": "eslint \"src\" --ext .tsx,.ts --fix && prettier --write .",
     "lint": "npm run lint:ts && npm run lint:scss",
-    "lint:commit": "commitlint",
     "lint:scss": "stylelint \"src/**/*.scss\"",
     "lint:staged": "lint-staged",
     "lint:ts": "eslint \"src\" --ext .tsx,.ts && prettier --check .",
-    "prepare": "husky install",
     "semantic-release": "semantic-release",
     "serve": "gatsby serve",
     "start": "npm run clean && gatsby develop",
     "test": "jest --config ./internal/testing/jest-config.ts",
     "test:update-snapshot": "jest --updateSnapshot --config ./internal/testing/jest-config.ts",
     "test:watch": "jest --watch --config ./internal/testing/jest-config.ts"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   },
   "lint-staged": {
     "*.tsx?": [
@@ -145,6 +134,6 @@
     "typescript": "^5.2.2"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=v18"
   }
 }

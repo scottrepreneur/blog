@@ -18,13 +18,13 @@ interface Props {
 
 const Post: React.FC<Props> = ({ post }: Props) => {
   const { html } = post;
-  const { tagSlugs, slug } = post.fields;
+  const { tagSlugs } = post.fields;
   const { tags, title, date } = post.frontmatter;
 
   return (
     <div className={styles.post}>
       <div className={styles.buttons}>
-        <Button className={styles.buttonArticles} title="All Articles" to="/" />
+        <Button className={styles.buttonArticles} title="All Posts" to="/" />
         <ThemeSwitcher />
       </div>
 
@@ -39,7 +39,7 @@ const Post: React.FC<Props> = ({ post }: Props) => {
       </div>
 
       <div className={styles.comments}>
-        <Comments postSlug={slug} postTitle={post.frontmatter.title} />
+        <Comments post={post} />
       </div>
     </div>
   );

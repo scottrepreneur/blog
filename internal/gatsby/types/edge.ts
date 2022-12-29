@@ -7,6 +7,7 @@ interface Frontmatter {
   category?: string;
   description?: string;
   tags?: Array<string>;
+  callToFeedback?: string;
 }
 
 interface Fields {
