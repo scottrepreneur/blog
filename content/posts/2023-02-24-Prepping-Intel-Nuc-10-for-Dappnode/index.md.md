@@ -1,10 +1,16 @@
 ---
-slug: "/index"
-title: "index.md"
-date: "2023-02-24T15:16:03.752Z"
-excerpt: "null"
+template: post
+title: Prepping Intel Nuc 10 for Dappnode
+description: While not supported out of the box, you can get your NUC 10 running Dappnode with a few simple steps.
+callToFeedback: What's your favorite service to run on Dappnode?
+category: Dev
+date: 2023-02-26T15:16:03.752Z
 draft: false
-tags: ["dappnode","nuc10","vmware"]
+tags:
+  - dappnode
+  - nuc10
+  - vmware
+
 ---
 Technically the Intel NUCs aren't supported by VMWare for whatever reason, but you need Hypervisor to run the beautiful suite that is [Dappnode](https://dappnode.io).
 
