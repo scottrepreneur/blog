@@ -3,7 +3,7 @@ slug: "/index"
 title: "index.md"
 date: "2023-02-24T15:16:03.752Z"
 excerpt: "null"
-status: "draft"
+draft: false
 tags: ["dappnode","nuc10","vmware"]
 ---
 Technically the Intel NUCs aren't supported by VMWare for whatever reason, but you need Hypervisor to run the beautiful suite that is [Dappnode](https://dappnode.io).
