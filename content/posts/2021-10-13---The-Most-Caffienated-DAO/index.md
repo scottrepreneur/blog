@@ -1,28 +1,24 @@
 ---
-template: post
-title: The Most Caffienated DAO
+template: "post"
+title: "The Most Caffienated DAO"
 draft: false
-date: 2021-10-13T10:35:24.152Z
-description: 'With “Hot DAO Summer” rapidly closing, I felt compelled to write about one of my favorite organization’s possible path to becoming a decentralized super saiyan version of itself.'
+date: "2021-10-13T10:35:24.152Z"
+description: "With “Hot DAO Summer” rapidly closing, I felt compelled to write about one of my favorite organization’s possible path to becoming a decentralized super saiyan version of itself."
 category: "Crypto"
-tags:
-  - blockchain
-  - coffee
-  - entrepreneurship
-  - businesses
+tags: ["blockchain","coffee","entrepreneurship","businesses"]
 ---
-
-With “Hot DAO Summer” rapidly coming to a close, I felt compelled to write about one of my favorite organization's possible path to becoming a decentralized super saiyan version of itself. While most of the tooling outlined here pertains to blockchains, I tried to leave out as much technical jargon as possible to help align on common goals rather than dictating specific solutions.
+*   With “Hot DAO Summer” rapidly coming to a close, I felt compelled to write about one of my favorite organization's possible path to be[**_coming a decentralized super saiyan version of itself. While most_**](https://google.com) of the tooling outlined here pertains to blockchains, I tried to leave out as much technical jargon as possible to help align on common goals rather than dictating specific solutions.
+    
 
 ![Coffee-Saiyan](https://i.gifer.com/BQ0Y.gif)
 
 ## What is 1 Million Cups?
 
-1 Million Cups (1MC) is an amazing organization initially organized at the excellent foundation created by Ewing Kauffman in Kansas City, MO that has spread to 100+ cities across the US. Founders, entrepreneurs, and small business owners gather each week to listen to a new founder present about their business and provide feedback for the idea, pitch, and go to market strategy. With this feedback, the entrepreneurs are equipped with tangible feedback and new potential connections to build a stronger business with their community.
+1 Million Cups (1MC) is an amazing organization initially organized at the excellent foundation created by Ewing Kauffman in Kansas City, MO that has spread to 100+ cities across the US. Founders, entrepreneurs, and small business owners gather each week to listen to a new founder present about their busi**ness and provide feedback for the idea, pitch, and go to ma**rket strategy. With this feedback, the entrepreneurs are with tangible feedback and new potential connections to build a stronger business with their community.
 
 ![1 Million Cups in Kansas City](media/1mc-kc.jpeg)
 
-When 1MC started in a Kansas City conference room to bring together the entrepreneurs that were already working it made sense to have the organization controlled and overseen by the [Kauffman] Foundation. As the organization has grown to cities across the country there has been a need to scale the hierarchy by adding regional reps and develop tools to allow the volunteers running local chapters to succeed. But product development costs are high and there's tons of competing priorities for very limited resources.
+When 1MC started in a Kansas City conference room to bring together the entrepreneurs that were already working it made sense to have the organization controlled and overseen by the \[Kauffman\] Foundation. As the organization has grown to cities across the country there has been a need to scale the hierarchy by adding regional reps and develop tools to allow the volunteers running local chapters to succeed. But product development costs are high and there's tons of competing priorities for very limited resources.
 
 The Foundation (and the team leading the core organization) have been an absolute godsend, and scaling from a single city to reproducible playbooks across the country is nothing short of extraodinary. As an operational mind and systems thinker, I cannot appreciate this enough. At last, it's time to decentralize and distribute the power from a core operating unit to all stakeholders in the organization being empowered to contribute and grow the org in the best ways for all stakeholders.
 
@@ -58,7 +54,7 @@ I take these words with action that the participants at 1MC are being left power
 
 Different organizations are exploring this to give their community ownership of the value created while participating. I see 3 major steps to decentralizing 1 Million Cups to be owned and operated by it's community rather than steered by a small committee
 
-### 1. Open source tooling
+### 1\. Open source tooling
 
 Using open source technologies or technologies that are easily shareable, in lieu, help empower the community to provide feedback and submit improvements with meaningful intent. Receiving a bunch of unprioritized initiatives makes it just a bit more difficult to make progress toward improving the underlying tools. While this can be done with a small, well-incentivized team this also severely limits the potential contributors that can submit smaller contributions.
 
@@ -66,7 +62,7 @@ Using open source technologies or technologies that are easily shareable, in lie
 
 Not all tools will be open source at first, but allowing the community to explore which can be replaced provides opportunity to select the best tools for the current decision. The ownership in this decision and the power to adjust will greatly drive adoption of organization wide tools.
 
-### 2. Distribute ownership to attendees, presenters, previous and current organizers
+### 2\. Distribute ownership to attendees, presenters, previous and current organizers
 
 A community is nothing without the people grinding behind the scenes to build and put on events with consistency and enthusiasm. Rewarding organizers that have been contributors (not too heavily) since the beginning might re-engage them to mentor/contribute again in the future. Additionally, rewarding current organizers will help retain the talent, culture, and knowledge pool that's been curated over the years.
 
@@ -74,7 +70,7 @@ A community is nothing without the people grinding behind the scenes to build an
 
 Giving presenters a tiny bit of ownership will incentivize them to return the mentorship when they achieve small successes in their organization. These quickly become carrots for doing real participatory actions within the organization. Even community members attending can earn participatory rewards that verify their attendance which can accumulate value and be displayed within supported social networks/ecosystems. Small incentivizes will drive community members and sponsors to advocate for 1MC at other events throuout the community, not just organizers.
 
-### 3. Bootstrap initial DAO & seed communities
+### 3\. Bootstrap initial DAO & seed communities
 
 There are several options to accomplish initial bootstrapping so I'll leave this short. Raising funds for a primary treasury will allow these new owners to bootstrap a self-sufficient community gonverning itself. Providing some operations resources that would receive early salaries (from the DAO) to drive initiatives forward the early community alignment goals will expedite the community bootstrapping phase.
 

@@ -2,8 +2,8 @@
   "title": "Product, blockchain, and development",
   "url": "https://me.scottrepreneur.eth.limo",
   "image": "content/photo.jpg",
-  "subtitle": "It's all coordination.",
-  "farcasterUrl": "https://www.discove.xyz",
+  "subtitle": "buidl season",
+  "farcasterUrl": "https://www.warpcast.com",
   "copyright": "LFTG",
   "googleAnalyticsId": "",
   "disqusShortname": "",
@@ -30,19 +30,19 @@
     "bio": "Everybody's out here trying to be MJ, but I'm just trying to be Scottie.",
     "workingOn": [
       {
-        "link": "https://seedclub.xyz",
-        "place": "SeedClub",
-        "position": "Product Contributor"
+        "link": "https://hatsprotocol.xyz",
+        "place": "Hats Protocol",
+        "position": "Builder"
       },
       {
-        "link": "https://govrn.app",
-        "place": "Govrn",
-        "position": "Hacker in Residence"
+        "link": "https://withsummit.xyz",
+        "place": "Summit",
+        "position": "Builder"
       },
       {
-        "link": "https://raidguild.org",
-        "place": "Raid Guild",
-        "position": "Product & Ops"
+        "link": "https://ethereum.org",
+        "place": "Ethereum Ecosystem",
+        "position": "Builder"
       }
     ],
     "contacts": {

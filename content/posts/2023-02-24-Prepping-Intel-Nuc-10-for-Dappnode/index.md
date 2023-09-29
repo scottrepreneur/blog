@@ -21,7 +21,6 @@ Technically the Intel NUCs aren't supported by VMWare for whatever reason, but y
 The recommendation is to install Dappnode via ISO which works well if the hypervisor is already enabled. You'll get met with a nice GRUB screen if you don't have this, but don't panic we can get your kernel upgraded and off to the races with Dappnode.
 
 It took some searching to narrow down which upgrades were necessary at the kernel level to get things rolling. You'll find that VMWare has provided community support for accessing hypervisor on these NUCs so flashing a quick BIOS update will get it running.
-
 [https://reddit.com/r/intelnuc/comments/gt6gwy/installing\_linux\_on\_nuc\_10/](https://reddit.com/r/intelnuc/comments/gt6gwy/installing_linux_on_nuc_10/)
 
 There's a few solid guides out there for getting ESXi running on your NUC
@@ -38,7 +37,9 @@ VMWare engineer provides regular updates about releasesVMWare engineer provides 
 Here's the steps so you can quickly get back to your Dappnode operations:
 
 1.  Download the ESXi ISO
+
     a. [vmware.com](http://vmware.com)
+
     b. Download **vSphere 7.0 Update 1** binaries [https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi7](https://my.vmware.com/en/web/vmware/evalcenter?p=free-esxi7)
 
 2.  Flash the ISO onto USB drive and boot your NUC with the USB
