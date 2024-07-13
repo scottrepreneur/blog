@@ -5,12 +5,12 @@
 :after,
 :before {
   --color-white: #{$color-white};
-  --color-primary: #{$color-blue};
-  --color-secondary: #{$color-orange};
+  --color-primary: #{$color-primary};
+  --color-secondary: #{$color-secondary};
   --color-prism-background: #{$color-white-cloud};
   --color-typographic-base-font: #{$color-dark};
-  --color-typographic-link-p-font: #{$color-blue};
-  --color-typographic-link-s-font: #{$color-orange};
+  --color-typographic-link-p-font: #{$color-primary};
+  --color-typographic-link-s-font: #{$color-secondary};
   --color-page-border: #{$color-white-cloud};
   --color-page-background: #{$color-white};
   --color-sidebar-border: #{$color-white-cloud};

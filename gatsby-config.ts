@@ -9,11 +9,13 @@ export default {
     url: config.url,
     menu: config.menu,
     title: config.title,
+    image: config.image,
     author: config.author,
     subtitle: config.subtitle,
     copyright: config.copyright,
     postsLimit: config.postsLimit,
     disqusShortname: config.disqusShortname,
+    farcasterUrl: config.farcasterUrl,
   },
   plugins: [
     {
@@ -79,7 +81,6 @@ export default {
                       frontmatter {
                         date
                         title
-                        slug
                         description
                       }
                     }
@@ -118,15 +119,17 @@ export default {
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
-    {
-      resolve: "gatsby-plugin-google-gtag",
-      options: {
-        trackingIds: [config.googleAnalyticsId],
-        pluginConfig: {
-          head: true,
-        },
-      },
-    },
+    /*
+     * {
+     *   resolve: "gatsby-plugin-google-gtag",
+     *   options: {
+     *     trackingIds: [config.googleAnalyticsId],
+     *     pluginConfig: {
+     *       head: true,
+     *     },
+     *   },
+     * },
+     */
     {
       resolve: "gatsby-plugin-sitemap",
       options: {
@@ -188,13 +191,15 @@ export default {
         },
       },
     },
-    {
-      resolve: "@sentry/gatsby",
-      options: {
-        dsn: process.env.SENTRY_DSN,
-        tracesSampleRate: 1,
-      },
-    },
+    /*
+     * {
+     *   resolve: "@sentry/gatsby",
+     *   options: {
+     *     dsn: process.env.SENTRY_DSN,
+     *     tracesSampleRate: 1,
+     *   },
+     * },
+     */
     "gatsby-plugin-image",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-optimize-svgs",

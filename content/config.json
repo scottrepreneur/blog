@@ -1,48 +1,64 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "title": "Product, blockchain, and development",
+  "url": "https://me.scottrepreneur.eth.limo",
+  "image": "content/photo.jpg",
+  "subtitle": "buidl season",
+  "farcasterUrl": "https://www.warpcast.com",
+  "copyright": "LFTG",
+  "googleAnalyticsId": "",
   "disqusShortname": "",
   "postsLimit": 4,
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Articles",
+      "label": "Posts",
       "path": "/"
     },
     {
       "label": "About me",
       "path": "/pages/about"
-    },
-    {
-      "label": "Contact me",
-      "path": "/pages/contacts"
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "scottrepreneur",
+    "pronunciation": "scott-rep-ren-eur",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "Everybody's out here trying to be MJ, but I'm just trying to be Scottie.",
+    "workingOn": [
+      {
+        "link": "https://hatsprotocol.xyz",
+        "place": "Hats Protocol",
+        "position": "Product & Dev"
+      },
+      {
+        "link": "https://raidguild.org",
+        "place": "Raid Guild",
+        "position": "Instigator"
+      },
+      {
+        "link": "https://purple.construction",
+        "place": "Purple",
+        "position": "Member"
+      }
+    ],
     "contacts": {
+      "email": "scottrepreneur@gmail.com",
+      "facebook": "",
+      "telegram": "scottrepreneur",
+      "twitter": "scottrepreneur_",
+      "github": "scottrepreneur",
       "rss": "",
-      "email": "",
-      "github": "alxshelepenok/gatsby-starter-lumen",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "mastodon": "#",
-      "line": "",
-      "weibo": "",
-      "gitlab": "",
       "medium": "",
-      "youtube": "",
+      "linkedin": "",
+      "instagram": "",
+      "gitlab": "",
       "codepen": "",
+      "youtube": "",
       "soundcloud": "",
-      "bluesky": ""
+      "mastodon": "",
+      "showtime": "",
+      "lenster": "",
+      "farcaster": "scottrepreneur"
     }
   }
 }

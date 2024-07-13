@@ -14,11 +14,13 @@ interface Props {
   };
 }
 
-const PostTemplate: React.FC<Props> = ({ data: { markdownRemark } }: Props) => (
-  <Layout>
-    <Post post={markdownRemark} />
-  </Layout>
-);
+const PostTemplate: React.FC<Props> = ({ data: { markdownRemark } }: Props) => {
+  return (
+    <Layout>
+      <Post post={markdownRemark} />
+    </Layout>
+  );
+};
 
 export const query = graphql`
   query PostTemplate($slug: String!) {
@@ -34,9 +36,7 @@ export const query = graphql`
         description
         tags
         title
-        socialImage {
-          publicURL
-        }
+        callToFeedback
       }
     }
   }

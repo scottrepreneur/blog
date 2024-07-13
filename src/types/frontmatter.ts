@@ -9,6 +9,7 @@ interface Frontmatter {
   socialImage?: {
     publicURL: string;
   };
+  callToFeedback?: string;
 }
 
 export default Frontmatter;

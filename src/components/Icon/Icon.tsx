@@ -9,13 +9,18 @@ interface Props {
   icon: {
     viewBox?: string;
     path?: string;
+    paths?: string[];
   };
 }
 
 const Icon: React.FC<Props> = ({ name, icon }: Props) => (
   <svg className={styles.icon} viewBox={icon.viewBox}>
     <title>{name}</title>
-    <path d={icon.path} />
+    {icon.paths ? (
+      icon.paths.map((path, i) => <path key={i} d={path} />)
+    ) : (
+      <path d={icon.path} />
+    )}
   </svg>
 );
 

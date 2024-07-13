@@ -1,0 +1,32 @@
+<TaskerData sr="" dvi="1" tv="5.12.6-beta">
+    <Profile sr="prof410" ve="2">
+        <cdate>1590799413703</cdate>
+        <edate>1621698398708</edate>
+        <flags>8</flags>
+        <id>410</id>
+        <mid0>411</mid0>
+        <nme>Shake Light</nme>
+        <Event sr="con0" ve="2">
+            <code>3001</code>
+            <pri>0</pri>
+            <Int sr="arg0" val="0"/>
+            <Int sr="arg1" val="0"/>
+            <Int sr="arg2" val="2"/>
+        </Event>
+    </Profile>
+    <Task sr="task411">
+        <cdate>1590799424174</cdate>
+        <edate>1591429653730</edate>
+        <id>411</id>
+        <nme>Flashlight</nme>
+        <pri>6</pri>
+        <Action sr="act0" ve="7">
+            <code>511</code>
+            <Int sr="arg0" val="2"/>
+        </Action>
+        <Action sr="act1" ve="7">
+            <code>61</code>
+            <Int sr="arg0" val="100"/>
+        </Action>
+    </Task>
+</TaskerData>
